@@ -9,8 +9,8 @@ from tkinter import messagebox
 try:
     connection = mysql.connector.connect(
         host='localhost',
-        database='project',
-        user='student',            
+        database='student system',
+        user='admin',            
         password='123456'
     )
     if connection.is_connected():
